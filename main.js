@@ -11,23 +11,22 @@ select.addEventListener('change', () => {
     switch (value) {
 
         case 1:
-            titre.innerHTML = 'Nous vous consseillon le film Cendrillon';
-            img.innerHTML = `<img src="https://fr.web.img6.acsta.net/pictures/14/11/19/15/31/350162.jpg">`;
+            titre.innerHTML = 'Nous vous consseillons le film Cendrillon';
+            img.innerHTML = `<img src="./img/cendrillon.jpg">`;
             break;
 
         case 2:
-            titre.innerHTML = 'Nous vous consseillon le film Matrix';
-            img.innerHTML = `<img src="https://www.ecranlarge.com/uploads/image/001/453/peoqbqtlc4ccwdudqxmedswpwtz-206.jpg">`;
+            titre.innerHTML = 'Nous vous consseillons le film Matrix';
+            img.innerHTML = `<img src="./img/matrix.jpg">`;
             break;
 
         case 3:
-            titre.innerHTML = 'Nous vous consseillon le film Top Gun';
-            img.innerHTML = `<img src="https://fr.web.img3.acsta.net/pictures/22/03/29/15/12/0827894.jpg">`;
+            titre.innerHTML = 'Nous vous consseillons le film Top Gun';
+            img.innerHTML = `<img src="./img/topgun.webp">`;
             break;
         default: titre.innerHTML = 'Choisissez votre âge :'
     }
 });
-
 
 
 
@@ -38,16 +37,16 @@ select.addEventListener('change', () => {
 //     value = select.selectedIndex;
 
 //     if (value === 1) {
-//         titre.innerHTML = 'Nous vous consseillon le film Cendrillon';
-//         img.innerHTML = `<img src="https://fr.web.img6.acsta.net/pictures/14/11/19/15/31/350162.jpg">`;
+//         titre.innerHTML = 'Nous vous consseillons le film Cendrillon';
+//         img.innerHTML = `<img src="./img/cendrillon.jpg">`;
 //     }
 //     else if (value === 2) {
-//         titre.innerHTML = 'Nous vous consseillon le film Matrix';
-//         img.innerHTML = `<img src="https://www.ecranlarge.com/uploads/image/001/453/peoqbqtlc4ccwdudqxmedswpwtz-206.jpg">`;
+//         titre.innerHTML = 'Nous vous consseillons le film Matrix';
+//         img.innerHTML = `<img src="./img/matrix.jpg">`;
 //     }
 //     else if (value === 3) {
-//         titre.innerHTML = 'Nous vous consseillon le film Top Gun';
-//         img.innerHTML = `<img src="https://fr.web.img3.acsta.net/pictures/22/03/29/15/12/0827894.jpg">`;
+//         titre.innerHTML = 'Nous vous consseillons le film Top Gun';
+//         img.innerHTML = `<img src="./img/topgun.webp">`;
 //     }
 
 //     else {
